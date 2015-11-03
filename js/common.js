@@ -145,12 +145,12 @@ $(document).ready(function(){
     $("#slide-toolbar .row-nav[data-row=category]").css({
         'height': $('#category').height()+50,   // 50=margin
         'margin-top': $('header').height()+50-320-25 //50=header margin, 320=5(icons)*64, 20 nav top pos
-    });
+    }); 
     $("#slide-toolbar .row-nav[data-row=category] .row-nav-btn").css({
         'top': $("#slide-toolbar .row-nav[data-row=category]").height()/2-30
     });
     
-    //Popular staff
+    //Popular staff//
     $("#slide-toolbar .row-nav[data-row=popular-staff]").css({
         'height': $('#popular-staff').height()+50,
     });
