@@ -1,0 +1,9 @@
+@media only screen and (max-width : 1200px) {
+	.menu .sosial_links{
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+
+}

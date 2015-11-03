@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Toyplan</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/material-theme.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/material-design-iconic-font.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/slick.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/media.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<!-- SLIDE TOOLBAR  -->
+<ul id="slide-toolbar" class="side-nav fixed">
+  <li class="toolbar_item"><a href="#!"><img src="img/toolbar-logo.png" width="28"></img>Toyplan</a></li>
+  <li class="toolbar_item"><a href="#!"><i class="zmdi zmdi-hc-3x zmdi-filter-list"></i>Filter</a></li>
+  <li class="toolbar_item"><a href="#!"><i class="zmdi zmdi-hc-3x zmdi-search"></i>Search</a></li>
+  <li class="toolbar_item"><a href="#!"><i class="zmdi zmdi-hc-3x zmdi-check-circle"></i>Plan</a></li>
+  <li class="toolbar_item"><a href="#!"><i class="zmdi zmdi-hc-3x zmdi-star"></i>Favorites</a></li>
+  <li data-row="category" class="row-nav">
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-right"></i></a>
+    <a class="waves-effect waves-black btn-flat row-nav-btn">categories</a>
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-left"></i></a>
+  </li>
+  <li data-row="popular-staff" class="row-nav">
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-right"></i></a>
+    <a class="waves-effect waves-black btn-flat row-nav-btn">popular staff</a>
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-left"></i></a>
+  </li>
+  <li data-row="blogs" class="row-nav">
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-right"></i></a>
+    <a class="waves-effect waves-black btn-flat row-nav-btn">blogs</a>
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-left"></i></a>
+  </li>
+  <li data-row="news" class="row-nav ">
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-right"></i></a>
+    <a class="waves-effect waves-black btn-flat row-nav-btn">news</a>
+    <a class="waves-effect waves-black btn-flat"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-left"></i></a>
+  </li>
+</ul>
+<!-- HEADER  -->
+<header>
+  <div class="menu z-depth-1">
+    <nav>
+      <a href="#" data-activates="slide-toolbar" class="button-collapse toolbar"><i class="material-icons">settings</i></a>
+      <a href="#" class="brand-logo center">Toyplan</a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="#!">About us</a></li>
+        <li><a href="#!">Terms</a></li>
+        <li><a href="#!">Contacts</a></li>
+        <li><a href="#!">News</a></li>
+        <li><a href="#!">Blog</a></li>
+        <li><a href="#!">Feedback</a></li>
+      </ul>
+      <ul class="right hide-on-med-and-down header_login">
+        <li><a href="#!">Sign up</a></li>
+        <a class="waves-effect waves-black btn white">Log in</a>
+      </ul>
+      <ul class="right hide-on-med-and-down sosial_links">
+        <li><a href="#!"><i class="zmdi zmdi-facebook-box"></i></a></li>
+        <li><a href="#!"><i class="zmdi zmdi-twitter-box"></i></a></li>
+        <li><a href="#!"><i class="zmdi zmdi-instagram"></i></a></li>
+        <li><a href="#!"><i class="zmdi zmdi-google-plus-box"></i></a></li>
+      </ul>
+      <ul id="slide-menu" class="side-nav">
+        <li><a href="#!">About us</a></li>
+        <li><a href="#!">Terms</a></li>
+        <li><a href="#!">Contacts</a></li>
+        <li><a href="#!">News</a></li>
+        <li><a href="#!">Blog</a></li>
+        <li><a href="#!">Feedback</a></li>
+      </ul>
+      <a href="#" data-activates="slide-menu" class="right button-collapse menu"><i class="material-icons">more_vert</i></a>
+    </nav>
+    <div class="valign-wrapper card-panel">
+      <div class="valign center-align">
+        <img class="responsive-img" src="img/logo2.png" alt="">
+        <h5>Wedding - the most important and beautiful day that will remain in the memory of the newlyweds for many, many, years. This day is entirely yours, and no one can stop to do it the way you want!</h5>
+        <a class="waves-effect waves-light btn blue-gray">Feature tour</a>
+        <a class="waves-effect waves-light btn blue-light">Start planning</a>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- MAIN  -->
+<main>
+  <!-- CATEGORY SLIDER -->
+  <div id="category" class="row-slider">
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/wedding_place.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-balance"></i></span>
+          <span class="card-title">Wedding Place</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/dresses.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-mall"></i></span>
+          <span class="card-title">Dresses</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/decoration.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-flower"></i></span>
+          <span class="card-title">Decoration</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/car.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-car"></i></span>
+          <span class="card-title">Car</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/cake.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-cake"></i></span>
+          <span class="card-title">Cake</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/flowers.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-flower-alt"></i></span>
+          <span class="card-title">Flowers</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/jevelery.jpg">
+          <span class="card-icon">Icon</span>
+          <span class="card-title">Jevelery</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/photo.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-camera"></i></span>
+          <span class="card-title">Photo</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/singer.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-audio"></i></span>
+          <span class="card-title">Singer</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/beauty_salon.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-brush"></i></span>
+          <span class="card-title">Beauty Salon</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/man_costume.jpg">
+          <span class="card-icon">Icon</span>
+          <span class="card-title">Man Costume</span>
+        </div>
+      </a>
+    </div>
+    <div class="card">
+      <a href="#">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/categories/toastmaster.jpg">
+          <span class="card-icon"><i class="zmdi zmdi-hc-3x zmdi-mic-outline"></i></span>
+          <span class="card-title">Toastmaster</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <!-- POPULAR STAFF -->
+  <div id="popular-staff" class="row-slider row">
+    
+    <div>
+     <div class="col m6">
+      <div class="card product_card">
+        <div class="product_info">
+          <h4>Megan Fox</h4>
+          
+          <div class="row">
+            <ul class="product_rating">
+              <li><i class="zmdi zmdi-calendar"></i> 14</li>
+              <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+              <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+            </ul>
+          </div>
+          <div class="row">
+            <ul class="product_tags">
+              <li>Toastmaster</li>
+              <li>Stylist</li>
+              <li>Florist</li>
+            </ul>
+          </div>
+          <a class="add_btn btn-floating btn-large waves-effect waves-light"><i class="zmdi zmdi-hc-3x zmdi-plus"></i></a>
+          <a class="view_btn btn-floating btn-large waves-effect waves-light"><i class="zmdi zmdi-hc-3x zmdi-search"></i></a>
+        </div>
+        <div class="product_img">
+          <img class="responsive-img z-depth-1" src="uploads/profile/234234124.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- ALBUM SLIDER -->
+    <div class="col m6">
+      <div id="album" class=" valign-wrapper">
+        <div class="album_box valign">
+          <div class="album-slider-nav center">
+            <a class="waves-effect waves-light btn left"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-left"></i></a>
+            <a class="waves-effect waves-black btn white center">Watch full album</a>
+            <a class="waves-effect waves-light btn right"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-right"></i></a>
+          </div>
+          <div class="album-slider">
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div>
+     <div class="col m6">
+      <div class="card product_card">
+        <div class="product_info">
+          <h4>Megan Fox</h4>
+          
+          <div class="row">
+            <ul class="product_rating">
+              <li><i class="zmdi zmdi-calendar"></i> 14</li>
+              <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+              <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+            </ul>
+          </div>
+          <div class="row">
+            <ul class="product_tags">
+              <li>Toastmaster</li>
+              <li>Stylist</li>
+              <li>Florist</li>
+            </ul>
+          </div>
+          <a class="add_btn btn-floating btn-large waves-effect waves-light"><i class="zmdi zmdi-hc-3x zmdi-plus"></i></a>
+          <a class="view_btn btn-floating btn-large waves-effect waves-light"><i class="zmdi zmdi-hc-3x zmdi-search"></i></a>
+        </div>
+        <div class="product_img">
+          <img class="responsive-img z-depth-1" src="uploads/profile/234234124.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- ALBUM SLIDER -->
+    <div class="col m6">
+      <div id="album" class=" valign-wrapper">
+        <div class="album_box valign">
+          <div class="album-slider-nav center">
+            <a class="waves-effect waves-light btn left"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-left"></i></a>
+            <a class="waves-effect waves-black btn white center">Watch full album</a>
+            <a class="waves-effect waves-light btn right"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-right"></i></a>
+          </div>
+          <div class="album-slider">
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+    <div>
+     <div class="col m6">
+      <div class="card product_card">
+        <div class="product_info">
+          <h4>Megan Fox</h4>
+          
+          <div class="row">
+            <ul class="product_rating">
+              <li><i class="zmdi zmdi-calendar"></i> 14</li>
+              <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+              <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+            </ul>
+          </div>
+          <div class="row">
+            <ul class="product_tags">
+              <li>Toastmaster</li>
+              <li>Stylist</li>
+              <li>Florist</li>
+            </ul>
+          </div>
+          <a class="add_btn btn-floating btn-large waves-effect waves-light"><i class="zmdi zmdi-hc-3x zmdi-plus"></i></a>
+          <a class="view_btn btn-floating btn-large waves-effect waves-light"><i class="zmdi zmdi-hc-3x zmdi-search"></i></a>
+        </div>
+        <div class="product_img">
+          <img class="responsive-img z-depth-1" src="uploads/profile/234234124.jpg">
+        </div>
+      </div>
+    </div>
+    <!-- ALBUM SLIDER -->
+    <div class="col m6">
+      <div id="album" class=" valign-wrapper">
+        <div class="album_box valign">
+          <div class="album-slider-nav center">
+            <a class="waves-effect waves-light btn left"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-left"></i></a>
+            <a class="waves-effect waves-black btn white center">Watch full album</a>
+            <a class="waves-effect waves-light btn right"><i class="zmdi zmdi-hc-3x zmdi-long-arrow-right"></i></a>
+          </div>
+          <div class="album-slider">
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <img class="responsive-img openbox img-radius z-depth-1" src="http://cdn1.popworkouts.com/wp-content/uploads/2012/12/megan-fox-face.jpg">
+              <div class="card-album-likes z-depth-1">
+                <ul>
+                  <li><i class="zmdi zmdi-star-outline"></i> 23</li>
+                  <li><i class="zmdi zmdi-favorite-outline"></i> 34</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  
+  <div id="blogs" class="row-slider row">
+    
+      <div class="card">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/blog.jpg">
+          <div class="card-text">
+            <h3>How to organize our own wedding</h3>
+            <p>Wedding test test test test test test test test test test test test test test test test test test test test test test test test test test test test test</p>
+            <ul>
+              <li>#Cars</li>
+              <li>#Photo</li>
+              <li>#Flowers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/blog.jpg">
+          <div class="card-text">
+            <h3>How to organize our own wedding</h3>
+            <p>Wedding test test test test test test test test test test test test test test test test test test test test test test test test test test test test test</p>
+            <ul>
+              <li>#Cars</li>
+              <li>#Photo</li>
+              <li>#Flowers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image">
+          <img class="z-depth-1" src="img/blog.jpg">
+          <div class="card-text">
+            <h3>How to organize our own wedding</h3>
+            <p>Wedding test test test test test test test test test test test test test test test test test test test test test test test test test test test test test</p>
+            <ul>
+              <li>#Cars</li>
+              <li>#Photo</li>
+              <li>#Flowers</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+  
+  <div id="news" class="row-slider">
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+    <a href="#" class="news-block">
+      <div class="news-content">
+        <div class="news-date">27.10.2015</div>
+        <div class="news-title">News title</div>
+        <div class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed hendrerit tortor nisl. Vivamus pretium dolor nec odio egestas ullamcorper.</div>
+      </div>
+      <div class="news-bottom"></div>
+      <div class="news-corner"></div>
+      <div class="clear"></div>
+    </a>
+  </div>
+  
+  
+    
+
+</main>
+<footer>
+  <div class="row">
+        <div class="footer_content z-depth-1">
+        <span>© Toyplan 2015</span>
+        <ul class="right">
+          <li><a href="#!"><i class="zmdi zmdi-facebook-box"></i></a></li>
+          <li><a href="#!"><i class="zmdi zmdi-twitter-box"></i></a></li>
+          <li><a href="#!"><i class="zmdi zmdi-instagram"></i></a></li>
+          <li><a href="#!"><i class="zmdi zmdi-google-plus-box"></i></a></li>
+        </ul>
+        </div>
+    </div>
+</footer>
+<div class="overlay-bg"></div>
+<div class="overlay-body">
+
+</div>
+<img class="overlay-img" alt="">
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/openbox-img.js"></script>
+  <script src="js/common.js"></script>
+  </body>
+</html>
