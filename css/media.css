@@ -5,5 +5,66 @@
 }
 
 @media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 30px;
+  }
+  header nav .brand-logo{
+    display: block;
+  }
+  #slide-toolbar li:first-child{
+    display: none;
+  }
+  .side-nav.right-aligned a {
+    line-height: 45px;
+  }
+  
+  #slide-toolbar.side-nav.fixed {
+    position: fixed;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  #slide-toolbar .row-nav{
+  	display: none;
+  }
+  .menu nav{
+		position: fixed;
+	    right: 0;
+	    top: 0;
+	    left: 0;
+	    z-index: 998;
+	}
+	.menu .card-panel {
+		margin-top: 90px;
+    	padding: 10%;
+    	-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+	#category .card .card-image .card-title {
+    	bottom: 30px;
+    	font-size: 16px;
+	}
+	#album{
+		display: none;
+	}
+}
 
+@media only screen and (max-width : 600px) {
+	.menu h5{
+		font-size: 1.2rem;
+	}
+	.menu{
+		font-size: 12px;
+	}
+	.menu nav .brand-logo.center{
+		font-size: 1.8rem;
+	}
+	.menu nav .button-collapse i {
+    	font-size: 2.4rem;
+	}
+	#category .card .card-image .card-title {
+	    bottom: 36px;
+	    font-size: 16px;
+	}
 }
